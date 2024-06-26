@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.pimg1 {
+    background-image: url(./assets/image1.png);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(./assets/image2.png);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(./assets/image3.png);
+    min-height: 400px;
+}
+
+
+.pimg1 , .pimg2 , .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+
+.textbg{
+    background-color: #313534;
+    padding: 20px 20px;
+}
+
+.sectionone {
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.sectionone h2{
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #666666;
+}
+
+.sectionone p{
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.explorenature{
+    background-image: url(./assets/image2.png);
+    min-height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ptext2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+}
+
+.sectiontwo {
+    text-align: center;
+    
+    padding-bottom: 20px;
+    background-color: #313534;
+}
+
+.sectiontwo h6{
+    font-size: 120px;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+.sectiontwo p{
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+    color: white;
+}
+
+.lookdeepintonature{
+    background-image: url(./assets/image3.png);
+    min-height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionthree{
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #313534;
+}
+
+.sectionthree h6{
+    font-size: 120px;
+    font-weight: 100;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+.sectionthree p{
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 22px;
+    color: white;
+}
