@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 
 
 
-.container{
+.container {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.apply_box{
+.apply_box {
     max-width: 600px;
     margin: 0 auto;
     background-color: white;
@@ -19,18 +19,18 @@
     box-shadow: 4px 3px 5px #464646;
     border-radius: 5px;
     height: auto;
-    
+
 }
 
-.title_small{
+.title_small {
     font-size: 20px;
 }
 
-.apply_box h1{
+.apply_box h1 {
     padding: 10px 10px
 }
 
-.form_container{
+.form_container {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -39,35 +39,37 @@
     gap: 20px;
 }
 
-.form_control{
+.form_control {
     display: flex;
     flex-direction: column;
 }
 
-label{
+label {
     font-size: 15px;
     margin-bottom: 5px;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
     padding: 6px 10px;
     border: 2px solid #cccccc;
     border-radius: 3px;
     font-size: 15px;
 }
 
-.button_container{
+.button_container {
     display: flex;
     justify-content: end;
-    
+
     padding: 20px;
 }
 
-button{
-    background-color: red;
+button {
+    background-color: rgb(255, 86, 86);
     padding: 6px;
     color: white;
     border: 2px solid;
     border-radius: 5px;
-    
+
 }
