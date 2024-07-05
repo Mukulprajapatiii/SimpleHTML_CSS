@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uppersection{
+    width: 900px;
+    padding-top: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
