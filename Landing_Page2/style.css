@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.left-content img{
+    width: 80px;
+    height: 80px;
+    margin: 15px 15px;
+}
+
+.right-content ul li{
+    float: left;
+    justify-content: space-around;
+}
